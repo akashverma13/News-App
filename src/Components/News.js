@@ -24,7 +24,6 @@ class News extends React.Component {
                                     .then(response => response.json())
                                     .then(resData => {
                                         this.setState({ items: resData, isLoaded: true }); //this is an asynchronous function
-                                        console.log(this.state.items);
                                     })
                             }} />
                         </div>
@@ -48,7 +47,6 @@ class News extends React.Component {
                                     .then(response => response.json())
                                     .then(resData => {
                                         this.setState({ items: resData, isLoaded: true }); //this is an asynchronous function
-                                        console.log(this.state.items);
                                     })
                             }} />
                         </div>
