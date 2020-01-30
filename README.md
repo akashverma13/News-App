@@ -1,4 +1,4 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+#A search engine for news all around the world, sorted by the most recent.
 
 ## Available Scripts
 
