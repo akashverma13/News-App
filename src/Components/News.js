@@ -20,7 +20,7 @@ class News extends React.Component {
                                 <span class="input-group-text" id="inputGroup-sizing-lg">News</span>
                             </div>
                             <input autocomplete="off" placeholder="Bitcoin" class="form-control" aria-label="Large" aria-describedby="inputGroup-sizing-sm" type="text" name="keyword" id="keyowrd" onChange={e => {
-                                fetch(`wss://gentle-hollows-81970.herokuapp.com/api/news/${e.target.value}`)
+                                fetch(`https://gentle-hollows-81970.herokuapp.com/api/news/${e.target.value}`)
                                     .then(response => response.json())
                                     .then(resData => {
                                         this.setState({ items: resData, isLoaded: true }); //this is an asynchronous function
@@ -44,7 +44,7 @@ class News extends React.Component {
                                 <span class="input-group-text" id="inputGroup-sizing-lg">News</span>
                             </div>
                             <input autocomplete="off" placeholder="Bitcoin" class="form-control" aria-label="Large" aria-describedby="inputGroup-sizing-sm" type="text" name="keyword" id="keyowrd" onChange={e => {
-                                fetch(`wss://gentle-hollows-81970.herokuapp.com/api/news/${e.target.value}`)
+                                fetch(`https://gentle-hollows-81970.herokuapp.com/api/news/${e.target.value}`)
                                     .then(response => response.json())
                                     .then(resData => {
                                         this.setState({ items: resData, isLoaded: true }); //this is an asynchronous function
