@@ -1,11 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto');
 @import url('https://netdna.bootstrapcdn.com/font-awesome/4.0.1/css/font-awesome.css');
 
-
-::-webkit-scrollbar {
-  display: none;
-}
-
 * {
   margin: 0;
   padding: 0;
@@ -18,7 +13,6 @@ html, body {
   background: -webkit-linear-gradient(to right, #243B55, #141E30);  /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to right, #243B55, #141E30); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   }
-
 body {
     display: grid;
   font: 14px/1 'Roboto', sans-serif;
