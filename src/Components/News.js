@@ -23,7 +23,8 @@ class News extends React.Component {
                                 fetch(`https://gentle-hollows-81970.herokuapp.com/api/news/${e.target.value}`)
                                     .then(response => response.json())
                                     .then(resData => {
-                                        this.setState({ items: resData, isLoaded: true }); //this is an asynchronous function
+                                        this.setState({ items: resData, isLoaded: true }); //this is an asynchronous function7
+                                        console.log(resData);
                                     })
                             }} />
                         </div>
@@ -47,6 +48,7 @@ class News extends React.Component {
                                     .then(response => response.json())
                                     .then(resData => {
                                         this.setState({ items: resData, isLoaded: true }); //this is an asynchronous function
+                                        console.log(resData);
                                     })
                             }} />
                         </div>
