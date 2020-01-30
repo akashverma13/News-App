@@ -1,4 +1,4 @@
-#A search engine for news all around the world, sorted by the most recent.
+# A search engine for news all around the world, sorted by the most recent.
 
 ## Available Scripts
 
